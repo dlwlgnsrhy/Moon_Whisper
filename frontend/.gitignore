@@ -1,0 +1,50 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 환경 변수 파일 (API 키, 클라이언트 시크릿 등)
+.env
+*.env
+.env.local
+.env.production
+
+# 로그 파일
+*.log
+logs/
+
+# 캐시 파일, 세션 정보
+.cache/
+.session/
+*.tmp
+
+# Gradle 빌드 아티팩트
+*.gradle
+.gradle/
+
+# 빌드 결과물
+build/
+dist/
+
+# IDE 관련 설정
+.idea/
+.vscode/
+
+# Docker 관련 파일
+docker-compose.override.yml
+.docker/
+
+# API 키 파일 (예시: Firebase, Google API 등)
+google-services.json
+firebase.json
