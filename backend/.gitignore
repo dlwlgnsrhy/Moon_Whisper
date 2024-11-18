@@ -68,3 +68,10 @@ docker-compose.override.yml
 # API 키 파일 (예시: Firebase, Google API 등)
 google-services.json
 firebase.json
+
+# Ignore all .properties files
+*.properties
+
+# Alternatively, if you want to ignore a specific properties file
+/application.properties
+/db.properties
