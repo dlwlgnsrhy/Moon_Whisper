@@ -1,10 +1,10 @@
-package com.example.moonwhisper.moonwhisper_backend;
+package com.app.alpha;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MoonwhisperBackendApplicationTests {
+class MoonWhisperApplicationTests {
 
 	@Test
 	void contextLoads() {
