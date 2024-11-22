@@ -17,6 +17,7 @@ public class VoiceNote {
     @JsonIgnore
     @JoinColumn(name="user_id")
     private User user;
+
     private String fileUrl; //클라우드 저장 음성 파일 URL
     private LocalDateTime createdAt;
 

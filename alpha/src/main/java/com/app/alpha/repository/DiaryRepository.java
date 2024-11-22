@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-public interface DiaryRepository extends JpaRepository<Diary,Long> {
-    List<Diary> findByUserId(Long userId);
+public interface DiaryRepository extends JpaRepository<Diary, Long> {
+    List<Diary> findByUser_UserId(Long userId);  // 특정 사용자의 일기 목록 조회
 }
