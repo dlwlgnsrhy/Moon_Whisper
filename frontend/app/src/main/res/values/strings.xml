@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MoonWhisperApp</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="recording_status">Recording in progress…</string>
+    <string name="enter_diary">Write your diary entry here…</string>
+    <string name="diary">Diary</string>
+    <string name="home">Home</string>
+    <string name="calendar">Calendar</string>
+    <string name="settings">Settings</string>
 </resources>
