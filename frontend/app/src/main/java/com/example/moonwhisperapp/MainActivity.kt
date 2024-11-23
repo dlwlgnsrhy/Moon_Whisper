@@ -8,6 +8,7 @@ import com.example.moonwhisperapp.ui.theme.MoonWhisperAppTheme
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)  // AppCompat 테마 설정
         super.onCreate(savedInstanceState)
 
         // XML 레이아웃 사용
