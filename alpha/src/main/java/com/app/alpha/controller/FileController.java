@@ -26,6 +26,17 @@
 //        tempFile.delete();
 //        return ResponseEntity.ok("File uploaded: " + fileName);
 //    }
+
+     // // 파일 업데이트
+     //  @PostMapping("/update{filename}")
+     //    public ResponseEntity<String> updateFile(@RequestParma("file") MultipartFile file) throws IOException {
+     //    File tempFile = File.createTempFile("temp", file.getOriginalFilename());
+     //    file.transferTo(tempFile);
+
+     //    String fileName = s3Service.updateFile(tempFile);
+     //    tempFile.delete();
+     //    return ResponseEntity.ok("File uploaded: " + fileName);
+     //  }
 //
 //    // 파일 다운로드
 //    @GetMapping("/download/{fileName}")
