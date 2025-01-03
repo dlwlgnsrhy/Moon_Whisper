@@ -53,6 +53,20 @@
 //        return fileName;
 //    }
 //
+      // // 파일 업데이트
+      // public String updateFile(File file) throws IOException {
+      //   String fileName = UUID.randomUUID() + "_" + file.getName();
+
+      //   s3Client.putObject(
+      //     PutObjectRequest.builder()
+      //             .bucket(buckerName)
+      //             .key(fileName)
+      //             .acl("public-read")
+      //             .build(),
+      //     software.amazon.awssdk.core.sync.RequestBody.fromBytes(Files.readAllBytes(file.toPath()))
+      //     );
+      //   return fileName;
+      // }
 //    // 파일 다운로드
 //    public byte[] downloadFile(String fileName) throws IOException {
 //        // S3에서 객체 가져오기
